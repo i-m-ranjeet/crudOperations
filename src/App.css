@@ -19,6 +19,7 @@ body{
   width:100%;
   text-align:center;
   color:#fff;
+  text-shadow: 0 0 4px #000;
   text-transform:capitalize;
 }
 .container table th{
@@ -66,10 +67,11 @@ table tr:hover .id:before{
 }
 .edit,.close{
   cursor: pointer;
-  transition: .3s;
+  transition: .1s;
 }
 .edit:active,.close:active{
   filter: brightness(60%);
+  box-shadow:inset 2px 2px 6px #000;
 }
 .edit{
   background: rgb(12, 116, 50);
@@ -90,6 +92,7 @@ table tr:hover .id:before{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .add input{
   width: 300px;
@@ -100,6 +103,8 @@ table tr:hover .id:before{
   color: rgb(1, 100, 153);
   box-shadow:inset 0 5px 10px rgba(0, 0, 0, 0.61);
   border: 1px solid rgb(1, 100, 153);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.508);
+  font-weight: 600;
 }
 .add label{
   color: #fff;
