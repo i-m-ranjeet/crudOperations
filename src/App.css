@@ -35,7 +35,7 @@ body{
   margin:20px 0;
   border-radius: 5px;
 }
-.container table tr:nth-child(even){
+.container table tbody:nth-child(even){
   margin: 10px 0;
   background:#333;
 }
@@ -72,14 +72,14 @@ table tr:hover .id:before{
   filter: brightness(60%);
 }
 .edit{
-  background: rgb(1, 100, 153);
+  background: rgb(196, 129, 43);
   transform: rotateY(180deg);
 }
 .close{
   background: rgb(155, 0, 8);
 }
 .edit:hover{
-  background: rgb(0, 139, 214);
+  background: rgb(255, 169, 57);
 }
 .close:hover{
   background: rgb(209, 24, 33);
@@ -112,6 +112,12 @@ table tr:hover .id:before{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.61);
   cursor: pointer;
 }
+.add label.editbtn{
+  background: rgb(196, 129, 43);
+}
+.add label.editbtn:hover{
+  background: rgb(255, 169, 57);
+}
 .add label:hover{
   background: rgb(0, 139, 214);
 }
@@ -125,4 +131,7 @@ table tr:hover .id:before{
   background: rgba(0, 0, 0, 0.391);
   border: none;
   outline: none;
+}
+.active tbody tr{
+  background: #777;
 }
