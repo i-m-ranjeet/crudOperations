@@ -72,14 +72,14 @@ table tr:hover .id:before{
   filter: brightness(60%);
 }
 .edit{
-  background: rgb(196, 129, 43);
+  background: rgb(12, 116, 50);
   transform: rotateY(180deg);
 }
 .close{
   background: rgb(155, 0, 8);
 }
 .edit:hover{
-  background: rgb(255, 169, 57);
+  background: rgb(14, 153, 65);
 }
 .close:hover{
   background: rgb(209, 24, 33);
@@ -113,10 +113,10 @@ table tr:hover .id:before{
   cursor: pointer;
 }
 .add label.editbtn{
-  background: rgb(196, 129, 43);
+  background: rgb(12, 116, 50);
 }
 .add label.editbtn:hover{
-  background: rgb(255, 169, 57);
+  background: rgb(14, 153, 65);
 }
 .add label:hover{
   background: rgb(0, 139, 214);

@@ -15,15 +15,11 @@ function Add({newEntry, update, letedit, oldvalue}) {
         newEntry(data);
         setData("");
     }
-    const No=()=>{
-        setData("")
-    }
     
     const editOld=()=>{
         update(data);
         setLetEdit(!letEDIT)
-        // setData("");
-        No();
+        setData("");
     }
 
 
